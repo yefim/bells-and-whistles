@@ -4,7 +4,8 @@
 	"dependencies" : {
 		"express" : "3.x",
 		"coffee-script" : "1.6.x",
-		"johnny-five" : "0.5.x"
+		"johnny-five" : "0.5.x",
+    "socket.io" : "git://github.com/LearnBoost/socket.io.git"
 	},
     "engines": {
         "node": ">=0.8.x"
