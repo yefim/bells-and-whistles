@@ -1,8 +1,6 @@
 # app
 express = require('express')
 app = express()
-app.mongoose = require('mongoose')
-env = 
 
 # config
 app.configure ->
