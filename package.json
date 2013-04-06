@@ -5,7 +5,7 @@
 		"express" : "3.x",
 		"coffee-script" : "1.6.x",
 		"johnny-five" : "0.5.x",
-    "socket.io" : "git://github.com/LearnBoost/socket.io.git"
+    "socket.io" : "0.9.14"
 	},
     "engines": {
         "node": ">=0.8.x"
