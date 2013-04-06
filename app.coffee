@@ -11,7 +11,11 @@ app.configure ->
   app.set('port', process.env.PORT or 3000)
 
 # sockets
-io.on 'connection', ->
+io.sockets.on 'connection', (socket) ->
+  socket.on 'note', (data) ->
+    # play note
+    console.log data
 
 # listen
-server.listen(app.get('port'))
+server.listen app.get('port'), ->
+  console.log "Listening on #{app.get('port')}"
